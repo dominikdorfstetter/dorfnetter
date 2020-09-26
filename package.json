@@ -1,8 +1,9 @@
 {
-  "name": "gatsby-starter-typescript",
-  "description": "Gatsby TypeScript starter",
+  "name": "dorfnetter-gatsby",
+  "description": "dorfnetter.at",
+  "repository": "https://github.com/dominikdorfstetter/dorfnetter.git",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dominik Dorfstetter <dorfstetter@posteo.de>",
   "dependencies": {
     "@types/node": "^8.0.7",
     "@types/react": "15.0.21",
@@ -19,15 +20,11 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "format": "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "prettier": "^1.8.2"
-  },
-  "contributors": [
-    "fabien0102 <fabien0102@gmail.com>",
-    "Hays Clark <hays.clark@gmail.com>"
-  ]
+  }
 }
