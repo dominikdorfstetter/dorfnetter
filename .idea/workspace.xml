@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="93bdb000-4a22-4d24-8bd8-fd65373b8205" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/layouts/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/declarations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarations.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page-2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +47,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="F:\projects\dorfnetter-gatsby\node_modules\prettier" />
-    <property name="ts.external.directory.path" value="F:\Program Files\JetBrains\WebStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="ts.external.directory.path" value="F:\projects\dorfnetter_gatsbyTS\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="93bdb000-4a22-4d24-8bd8-fd65373b8205" name="Default Changelist" comment="" />
@@ -39,29 +70,52 @@
       <option name="presentableId" value="Default" />
       <updated>1601079920662</updated>
       <workItem from="1601079921993" duration="178000" />
-      <workItem from="1601080701778" duration="1004000" />
+      <workItem from="1601080701778" duration="3751000" />
+      <workItem from="1601101597024" duration="352000" />
+      <workItem from="1601142177229" duration="2384000" />
+      <workItem from="1601192123156" duration="6081000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1601080874216">
+    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601101517946">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601080874216" />
-    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1601080874215">
+    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601101517946" />
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1601101410425">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601080874215" />
-    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1601080874215">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601101410425" />
+    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1601101410424">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601080874215" />
-    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1601080874216">
+    <state width="1897" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601101410424" />
+    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1601101410424">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601080874216" />
+    <state width="1897" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601101410424" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1601101410424">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1897" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601101410424" />
+    <state x="460" y="169" key="SettingsEditor" timestamp="1601082722786">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601082722786" />
   </component>
 </project>
