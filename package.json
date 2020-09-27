@@ -5,26 +5,46 @@
   "version": "1.0.0",
   "author": "Dominik Dorfstetter <dorfstetter@posteo.de>",
   "dependencies": {
+    "@types/jest": "^26.0.14",
     "@types/node": "^8.0.7",
     "@types/react": "15.0.21",
     "@types/react-dom": "0.14.23",
-    "gatsby": "^1.9.119",
-    "gatsby-link": "^1.6.28",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-typescript": "^1.4.10"
+    "@types/react-helmet": "^6.1.0",
+    "gatsby": "^2.24.65",
+    "gatsby-link": "^2.4.14",
+    "gatsby-plugin-google-analytics": "^2.3.14",
+    "gatsby-plugin-react-helmet": "^3.3.11",
+    "gatsby-plugin-sass": "^2.3.13",
+    "gatsby-plugin-typescript": "^2.4.20",
+    "gatsby-transformer-remark": "^2.8.35",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "ts-jest": "^26.4.0",
+    "typescript": "3.9.7"
   },
   "keywords": [
     "gatsby, typescript"
   ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
     "format": "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
-    "prettier": "^1.8.2"
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-jest": "^26.3.0",
+    "gatsby-plugin-root-import": "^2.0.5",
+    "jest": "^26.4.2",
+    "prettier": "^1.8.2",
+    "react-test-renderer": "^16.13.1",
+    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "webpack": "^4.44.2"
   }
 }

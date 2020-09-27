@@ -6,9 +6,38 @@
         "module": "commonjs",
         "target": "esnext",
         "jsx": "react",
-        "lib": ["dom", "es2015", "es2017"]
+        "lib": ["dom", "es2015", "es2017"],
+        "baseUrl": "./",
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "@app/*": [
+                "src/*"
+            ],
+            "@layouts/*": [
+                "src/layouts/*"
+            ],
+            "@styles/*": [
+                "src/styles/*"
+            ],
+            "@pages/*": [
+                "src/pages/*"
+            ],
+            "@types/*": [
+                "src/models/*"
+            ],
+            "@templates/*": [
+                "src/templates/*"
+            ]
+        },
+        "types": [
+            "@types/node",
+            "@types/react",
+            "@types/react-dom",
+            "@types/react-helmet",
+            "@types/jest"
+        ]
     },
     "include": [
         "./src/**/*"
-    ]
+    ],
 }
