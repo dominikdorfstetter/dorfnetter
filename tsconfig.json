@@ -33,7 +33,8 @@
             "@types/node",
             "@types/react",
             "@types/react-dom",
-            "@types/react-helmet"
+            "@types/react-helmet",
+            "@types/jest"
         ]
     },
     "include": [

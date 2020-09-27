@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import { graphql } from 'gatsby';
 import Layout from '@app/layouts/layout';
 
-interface IndexPageProps {
+export interface IndexPageProps {
   data: {
     site: {
       siteMetadata: {
