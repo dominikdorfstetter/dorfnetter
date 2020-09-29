@@ -1,0 +1,15 @@
+$dark-theme: false !default;
+// BEGIN: Colors
+$primary--color: #00C2FF;
+$accent--color: #ffffff;
+$secondary--color: darken($primary--color, 50);
+// END: Colors
+
+$font--highlight: "Source Code Pro", Courier, mono;
+$font--default: "Montserrat", sans-serif;
+$font--light: 300;
+$font--normal: 400;
+$font--semibold: 500;
+$font--bold: 700;
+$font--extrabold: 900;
+
