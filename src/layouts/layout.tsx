@@ -15,12 +15,12 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
         return (
             <>
                 <Helmet
-                    title="Dorfnetter Server"
+                    title="Dorfnetter"
                     meta={[
                         {name: 'description', content: 'Dorfnetter Server'},
                         {
                             name: 'keywords',
-                            content: 'development, typescript, java, vienna, Dominik Dorfstetter, Dorfstetter'
+                            content: 'Development, Gatsby, Typescript, Java, Vienna, Dominik Dorfstetter'
                         },
                     ]}
                 />

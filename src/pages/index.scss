@@ -11,16 +11,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-a.button.one:before, a.button.one:after{
-  content: '';
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  transition: all 0.3s ease;
-}
 .button{
   text-decoration: none !important;
   font-weight: bold;
@@ -31,13 +24,13 @@ a.button.one:before, a.button.one:after{
 a.button.one:before, a.button.one:after{
   content: '';
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   transition: all 0.3s ease;
 }
 a.button.one:before{
-  top: -2.5%;
-  left: -1%;
+  top: -0.5%;
+  left: -0.5%;
   border-top: 2px solid $primary--color;
   border-left: 2px solid $primary--color;
 }

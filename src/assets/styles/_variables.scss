@@ -5,6 +5,7 @@ $accent--color: #ffffff;
 $secondary--color: darken($primary--color, 50);
 // END: Colors
 
+// BEGIN: Fonts
 $font--highlight: "Source Code Pro", Courier, mono;
 $font--default: "Montserrat", sans-serif;
 $font--light: 300;
@@ -12,4 +13,4 @@ $font--normal: 400;
 $font--semibold: 500;
 $font--bold: 700;
 $font--extrabold: 900;
-
+// END: Fonts
