@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Helmet } from 'react-helmet';
+import {Helmet} from 'react-helmet';
 import Footer from "@layouts/footer";
 import Header from "@layouts/header";
 
@@ -23,7 +23,9 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
                             content: 'Development, Gatsby, Typescript, Java, Vienna, Dominik Dorfstetter'
                         },
                     ]}
-                />
+                >
+                    <html lang="en"/>
+                </Helmet>
                 <Header/>
                 <div
                     style={{
@@ -36,7 +38,7 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
                 >
                     {this.props.children}
                 </div>
-                <Footer />
+                <Footer/>
             </>
         )
     }
