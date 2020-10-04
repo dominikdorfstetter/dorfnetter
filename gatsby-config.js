@@ -1,3 +1,4 @@
+const CONFIG = require('./config');
 const path = require('path');
 
 module.exports = {
@@ -5,6 +6,21 @@ module.exports = {
         title: `Dorfnetter Server`,
     },
     plugins: [
+        {
+            resolve: `gatsby-plugin-prefetch-google-fonts`,
+            options: {
+                fonts: [
+                    {
+                        family: `Source Code Pro`,
+                        variants: [`300`, `400`, `500`, `700`, `900`]
+                    },
+                    {
+                        family: `Montserrat`,
+                        variants: [`300`, `400`, `500`, `700`, `900`]
+                    },
+                ],
+            },
+        },
         {
             resolve: 'gatsby-plugin-root-import',
             options: {
@@ -15,6 +31,20 @@ module.exports = {
                 "@types": path.join(__dirname, "src/types"),
                 "@pages": path.join(__dirname, 'src/pages')
             }
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: path.join(__dirname, `src`, `assets`, `images`),
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `icons`,
+                path: path.join(__dirname, `src`, `assets`, `icons`),
+            },
         },
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-typescript`,
@@ -32,20 +62,41 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+                trackingId: CONFIG.google.trackingId,
                 head: false,
                 anonymize: true,
                 respectDNT: true,
                 exclude: ["/preview/**", "/do-not-track/me/too/"],
                 pageTransitionDelay: 0,
-                optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
-                experimentId: "YOUR_GOOGLE_EXPERIMENT_ID",
-                variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
+                optimizeId: CONFIG.google.optimizeId,
+                experimentId: CONFIG.google.experimentId,
+                variationId: CONFIG.google.variationId,
                 defer: false,
                 sampleRate: 5,
                 siteSpeedSampleRate: 10,
                 cookieDomain: "dorfnetter.at",
             },
-        }
+        },
+        {
+            resolve: 'gatsby-plugin-codegen',
+            options: {},
+        },
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `Dorfnetter Server`,
+                short_name: `Dorfnetter`,
+                start_url: `/`,
+                background_color: `#00C2FF`,
+                theme_color: `#00C2FF`,
+                // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+                // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+                display: `standalone`,
+                icon: `src/assets/images/logo_short.svg`, // This path is relative to the root of the site.
+            },
+        },
+        `gatsby-plugin-offline`,
     ],
 }

@@ -5,18 +5,23 @@
   "version": "1.0.0",
   "author": "Dominik Dorfstetter <dorfstetter@posteo.de>",
   "dependencies": {
-    "@types/jest": "^26.0.14",
-    "@types/node": "^8.0.7",
-    "@types/react": "15.0.21",
-    "@types/react-dom": "0.14.23",
-    "@types/react-helmet": "^6.1.0",
+    "bootstrap": "^4.5.2",
     "gatsby": "^2.24.65",
+    "gatsby-image": "^2.4.19",
     "gatsby-link": "^2.4.14",
+    "gatsby-plugin-codegen": "^1.2.14",
     "gatsby-plugin-google-analytics": "^2.3.14",
+    "gatsby-plugin-manifest": "^2.4.32",
+    "gatsby-plugin-offline": "^3.2.29",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.3.11",
     "gatsby-plugin-sass": "^2.3.13",
+    "gatsby-plugin-sharp": "^2.6.36",
     "gatsby-plugin-typescript": "^2.4.20",
+    "gatsby-source-filesystem": "^2.3.30",
     "gatsby-transformer-remark": "^2.8.35",
+    "gatsby-transformer-sharp": "^2.5.15",
+    "jest-svg-transformer": "^1.0.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -25,26 +30,35 @@
     "typescript": "3.9.7"
   },
   "keywords": [
-    "gatsby, typescript"
+    "gatsby, typescript",
+    "jest"
   ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
     "format": "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\"",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test": "jest --config ./jest.config.js",
+    "test:watch": "jest --watch --config ./jest.config.js",
+    "test:coverage": "jest --coverage --config ./jest.config.js"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^8.0.7",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-helmet": "^6.1.0",
+    "@types/react-test-renderer": "^16.9.3",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
     "babel-jest": "^26.3.0",
+    "babel-preset-gatsby": "^0.5.11",
     "gatsby-plugin-root-import": "^2.0.5",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^26.4.2",
+    "jest-preset-gatsby": "^1.0.81",
     "prettier": "^1.8.2",
     "react-test-renderer": "^16.13.1",
-    "tsconfig-paths-webpack-plugin": "^3.3.0",
     "webpack": "^4.44.2"
   }
 }

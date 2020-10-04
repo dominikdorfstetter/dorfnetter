@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index renders correctly 1`] = `
+Array [
+  <header>
+    <img
+      alt="logo"
+      className="dorfnetter-logo displayed"
+      height="60"
+      src="test-file-stub"
+      width="auto"
+    />
+  </header>,
+  <div
+    style={
+      Object {
+        "margin": "0 auto",
+        "marginBottom": "60px",
+        "maxWidth": 960,
+        "padding": "0px 1.0875rem 1.45rem",
+        "paddingTop": 0,
+      }
+    }
+  >
+    <p
+      className="lead paragraph"
+    >
+      👋, I am 
+      <span
+        className="highlight"
+      >
+        Dominik
+      </span>
+      , I am a 31 years old programmer from Vienna.
+      <br />
+      With a 💙 for OpenSource.
+      <br />
+      Angular, Flutter, NestJS, Spring-Boot, Apache Kafka.
+    </p>
+    <hr />
+    <p
+      className="lead paragraph social"
+    >
+      <span
+        className="social-container"
+      >
+        <a
+          className="button one"
+          href="https://github.com/dominikdorfstetter"
+          target="_blank"
+        >
+          Github
+        </a>
+        <span
+          className="spacer"
+        />
+        <a
+          className="button one"
+          href="https://twitter.com/goto_shell"
+          target="_blank"
+        >
+          Twitter
+        </a>
+        <span
+          className="spacer"
+        />
+        <a
+          className="button one"
+          href="https://keybase.io/dorfstetter"
+          target="_blank"
+        >
+          Keybase
+        </a>
+      </span>
+    </p>
+    <hr />
+    <h2>
+      Projects
+    </h2>
+    <p
+      className="lead"
+    >
+      Happy Dogs Proto - A map for dog owners in Vienna. 
+      <a
+        className="button one"
+        href="/happy_dogs/"
+        target="_blank"
+      >
+        Visit
+      </a>
+    </p>
+  </div>,
+  <footer
+    className="footer mt-auto py-3"
+  >
+    <div
+      className="container footer-text"
+    >
+      Dorfstetter Dominik 2020 | 
+      <a
+        aria-current="page"
+        className="footer--active"
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        style={Object {}}
+      >
+        Home
+      </a>
+       | 
+      <a
+        href="/impressum/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Impressum
+      </a>
+    </div>
+  </footer>,
+]
+`;

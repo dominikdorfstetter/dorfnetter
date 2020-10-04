@@ -1,0 +1,39 @@
+@import 'src/assets/styles/variables';
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary--color;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+
+  &__text {
+    font-size: 1.2rem;
+    font-family: $font--highlight;
+    font-weight: $font--bold;
+    color: $secondary--color;
+    text-transform: uppercase;
+
+    a {
+      color: $secondary--color;
+      text-decoration: none;
+      font-size: 1rem;
+
+      &:hover {
+          color: black;
+          font-weight: $font--bold;
+      }
+
+      &.active {
+        color: $secondary--color;
+        font-weight: $font--bold;
+      }
+    }
+  }
+}
+
+

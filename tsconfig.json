@@ -1,14 +1,19 @@
 {
     "compilerOptions": {
+        "allowJs": true,
         "outDir": "./dist/",
         "sourceMap": true,
+        "preserveConstEnums": true,
+        "removeComments": true,
         "noImplicitAny": true,
         "module": "commonjs",
         "target": "esnext",
         "jsx": "react",
+        "experimentalDecorators": true,
         "lib": ["dom", "es2015", "es2017"],
         "baseUrl": "./",
         "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
         "paths": {
             "@app/*": [
                 "src/*"
@@ -27,6 +32,9 @@
             ],
             "@templates/*": [
                 "src/templates/*"
+            ],
+            "@assets/*": [
+                "src/assets/*"
             ]
         },
         "types": [
@@ -34,10 +42,14 @@
             "@types/react",
             "@types/react-dom",
             "@types/react-helmet",
+            "@types/react-test-renderer",
             "@types/jest"
         ]
     },
     "include": [
         "./src/**/*"
     ],
+    "exclude": [
+        "node_modules"
+    ]
 }
